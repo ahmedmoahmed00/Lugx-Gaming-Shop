@@ -120,6 +120,7 @@ li
 .header-page .header .toggle-menu
 {
     font-size: 30px;
+    cursor: pointer;
     color: white;
 }
 
@@ -130,18 +131,18 @@ li
         display: none;
     }
 
-    .header-page .header .toggle-menu:hover + ul 
+    .header-page .header .headnav 
     {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 144px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 70%;
-    background-color: white;
-    text-align: center;
-    border-radius: 0px 0px var(--main-border-radius) var(--main-border-radius);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 144px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+        background-color: white;
+        text-align: center;
+        border-radius: 0px 0px var(--main-border-radius) var(--main-border-radius);
     }
 
     .header-page .header ul li
